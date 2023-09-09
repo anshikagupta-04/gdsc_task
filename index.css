@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Noto+Sans+Old+Permic&family=Plus+Jakarta+Sans:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.navbar {
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 7px rgb(40, 40, 40);
+    z-index: 10000;
+}
+
+.logo {
+    width: 15.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 2rem 1.5rem 3rem;
+}
+
+.logo img {
+    width: 5rem;
+    height: 3rem;
+}
+
+.logo p {
+    font-size: 1.35rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: #868686;
+}
+
+.nav {
+    width: 51rem;
+    margin: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul {
+    width: 44rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul a {
+    color: #868686;
+    font-family: 'Albert Sans', sans-serif;
+    /* font-weight: 100; */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/*.nav ul a::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #868686;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+.nav ul a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+} */
+.con {
+    width: 5.7rem;
+    height: 2.5rem;
+    background-color: #7A7A7A;
+    border-radius: 132px;
+}
+
+.butn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: #ffff;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+.main {
+    margin: 1rem;
+}
+
+.aeroplane {
+    display: flex;
+}
+
+#aero {
+    position: relative;
+    top: 5rem;
+    left: 50rem;
+    z-index: 1000;
+}
+
+#curve {
+    position: relative;
+    top: 8.5rem;
+    left: 50rem;
+    z-index: 1000;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1000;
+    margin: 2rem;
+}
+
+.head h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2.8rem;
+    color: #646464;
+    font-weight: 1000;
+    margin: 1rem;
+}
+
+#people {
+    margin: 3rem;
+}
+
+.head p {
+    width: 58rem;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #5F5F5F;
+    font-weight: 400;
+}
+
+.head button {
+    width: 10rem;
+    height: 4rem;
+    margin: 3.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    border-radius: 7px;
+    border: none;
+    background-color: #4285F4;
+    color: #ffff;
+    box-shadow: 0px 2.4987659454345703px 2.4987659454345703px 0px #00000040;
+}
+
+.head h2 {
+    margin-top: 2rem;
+    font-size: 3.4rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #5F5F5F;
+    line-height: 90px;
+    letter-spacing: -2.2%;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.content h2 {
+    font-family: 'Albert Sans', sans-serif;
+    color: #5F5F5F;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.content .line1 {
+    width: 13rem;
+    height: 6px;
+    background-color: #4285F4;
+}
+
+.first {
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem 8rem 4rem;
+}
+
+.first p {
+    width: 40rem;
+    height: 11rem;
+    margin: 5rem 0;
+    padding: 1rem;
+    border-right: solid #4285F4;
+    border-width: 14px;
+    border-radius: 14px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    text-align: right;
+    line-height: 2.5rem;
+}
+
+.content .line2 {
+    width: 13rem;
+    height: 6px;
+    background-color: #0F9D56;
+}
+.second {
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem 14rem 4rem;
+}
+
+.second p {
+    width: 42rem;
+    height: 16rem;
+    margin: 5rem 0;
+    padding: 1rem;
+    border-left: solid #0F9D56;
+    border-width: 14px;
+    border-radius: 14px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    text-align: left;
+    line-height: 2.7rem;
+}
+.content h3 {
+    font-family: 'Albert Sans', sans-serif;
+    color: #353535;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+.content .line3 {
+    width: 13rem;
+    height: 6px;
+    background-color: #DB4437;
+}
+.third {
+    width: 82rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 4rem 15rem 3rem;
+}
+
+.third p {
+    width: 40rem;
+    height: 20rem;
+    margin: 5rem 0;
+    padding: 1.3rem;
+    border-right: solid #DB4437;
+    border-width: 14px;
+    border-radius: 14px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    text-align: right;
+    line-height: 2.5rem;
+}
+.circles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cir1{
+    width: 11rem;
+    height: 11rem;
+    border-top: solid #EA4435;
+    border-right: solid #547DBF;
+    border-bottom: solid #F9BC15;
+    border-left: solid #33A852;
+    border-width: 16px;
+    border-radius: 130px;
+    rotate: -45deg;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.cir1 p{
+    text-align: center;
+    rotate: 45deg;
+    font-size: 4.2rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #5F5F5F;
+    margin: 2.8rem 0.5rem 2.2rem 1rem ;
+}
+/* .cir1 h2{
+    width: auto;
+    text-align: center;
+    rotate: 45deg;
+    margin: 6rem 2rem 1rem 0rem;
+} */
+.label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+.label h2{
+    text-align: center;
+    color: #353535;
+}
+.tech{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 25rem;
+    height: 5px;
+    background-color: #FF6060;
+}
+.right{
+    width: 25rem;
+    height: 6px;
+    background-color: #FF6060;
+}
+.tech p{
+    font-size: 4rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 1.5rem 3rem ;
+    color: #5F5F5F;
+}
+#descrip{
+    font-size: 2rem;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    color: #5F5F5F;
+    font-weight: 500;
+    margin-bottom: 8rem;
+}
+.technology{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one .line{
+    width: 14rem;
+    height: 11px;
+    background-color: #EA4335;
+    border-radius: 26px;
+}
+.android{
+    width: 22rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid #E1E1E1;
+    border-width: 18px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 50px 0px #00000040;
+
+}
+.android img{
+    width: 1rem;
+    height: 1rem;
+}
+#android{
+    width: 12rem;
+    height: 10rem;
+}
+.android h1{
+    margin-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #5F5F5F;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two .line{
+    width: 14rem;
+    height: 11px;
+    background-color: #4285F4;
+    border-radius: 26px;
+}
+.flutter{
+    width: 22rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid #E1E1E1;
+    border-width: 18px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 50px 0px #00000040;
+}
+.flutter img{
+    width: 1rem;
+    height: 1rem;
+}
+#flutter{
+    width: 8rem;
+    height: 7rem;
+}
+.flutter h1{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #5F5F5F;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.three .line{
+    width: 14rem;
+    height: 11px;
+    background-color: #34A853;
+    border-radius: 26px;
+}
+.cloud{
+    width: 22rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid #E1E1E1;
+    border-width: 18px;
+    border-radius: 32px;
+    box-shadow: 0px 4px 50px 0px #00000040;
+}
+.cloud img{
+    width: 1rem;
+    height: 1rem;
+}
+#cloud{
+    width: 8rem;
+    height: 7rem;
+}
+.cloud h1{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #5F5F5F;
+}
+#faqs{
+    color: #5F5F5F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 10rem;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.q1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.q1 .que{
+    width: 50rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border: solid #E1E1E1;
+    border-radius: 54px;
+    border-width: 15px;
+    margin-bottom: 3rem;
+}
+.q1 .que img{
+    margin:0 2rem 0 4rem;
+}
+.q1 .que p{
+    font-size: 32px;
+    color: #5F5F5F;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+}
+.back{
+    width: 40rem;
+    height: 16rem;
+    border-left: solid #DB4437;
+    border-radius: 25px;
+    border-width: 15px;
+    margin-top: 3rem;
+}
+.front{
+    width: 38rem;
+    height: 14.15rem;
+    border: solid #E1E1E1;
+    border-top-right-radius: 54px;
+    border-bottom-right-radius: 54px;
+    border-width: 15px;
+    margin-top: 0.7px;
+}
+footer{
+    width: 100%;
+    height: 441px;
+    background:  linear-gradient( to left, #4285F4, #3D78DA80, #17124C00);
+    border-top-left-radius:118px ;
+    border-top-right-radius:118px ;
+}
